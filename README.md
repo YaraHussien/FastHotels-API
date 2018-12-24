@@ -1,1 +1,1 @@
-# WebServices
+# FastHotel API
