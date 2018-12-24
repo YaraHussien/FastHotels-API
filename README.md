@@ -13,3 +13,22 @@ This API provides cheap, fast, and reliable services, which will help the custom
 We developed our service using the RESTful service development paradigm, which is based on the HTTP protocol that is an RPC- based sychronous communication protocol.
 
 #  Composite Service Algorithm According To BPMN 2.0
+FastHotelControllerApi
+
+ Example
+```java
+// Import classes:
+//import io.swagger.client.ApiException;
+//import io.swagger.client.api.FastHotelControllerApi;
+
+
+FastHotelControllerApi apiInstance = new FastHotelControllerApi();
+CustomerModelClass u = new CustomerModelClass(); // CustomerModelClass | u
+try {
+    CustomerModelClass result = apiInstance.addCustomerUsingPOST1(u);
+    System.out.println(result);
+} catch (ApiException e) {
+    System.err.println("Exception when calling FastHotelControllerApi#addCustomerUsingPOST1");
+    e.printStackTrace();
+}
+```
