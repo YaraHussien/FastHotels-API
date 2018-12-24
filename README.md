@@ -4,9 +4,3 @@ This API provides cheap, fast, and reliable services, which will help the custom
 # SOA Diagram
 
 ![websoa _diagram 2](https://user-images.githubusercontent.com/37571215/50399502-9b106380-0788-11e9-9b06-b0f369fb2bea.png)
-
-
-# BPMN 2.0 Diagram
-
-![bpmn 2 0_diagramf](https://user-images.githubusercontent.com/37571215/50399553-f3476580-0788-11e9-904b-2b77275b4125.png)
-
