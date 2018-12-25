@@ -47,6 +47,13 @@ Name | Type | Description | Notes
 **customerName** | **String** | yara | 
 **location** | **String** | loc | 
 
+# TaxiControllerApi
 
+
+
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**getCustomerlocationUsingGET**](TaxiControllerApi.md#getCustomerlocationUsingGET) | **GET** /taxies/taxies-Customer-Location | Get Location of The customer
+[**getPathToCustomerUsingGET**](TaxiControllerApi.md#getPathToCustomerUsingGET) | **GET** /taxies/taxies-Direction-OfCustomer | Get Location of The customer
 
  
