@@ -26,9 +26,6 @@ Method | HTTP request | Description
 [**getDirectioForHotelUsingGET**](FastHotelControllerApi.md#getDirectioForHotelUsingGET) | **GET** /composite/Customer-direction | Get Customer by Location
 
 
-<a name="addCustomerUsingPOST1"></a>
-# **addCustomerUsingPOST1**
-
 
 
 
