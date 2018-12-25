@@ -27,7 +27,8 @@ Method | HTTP request | Description
 
 # CustomerControllerApi
 
-All URIs are relative to *https://localhost:8080*
+
+
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -37,6 +38,14 @@ Method | HTTP request | Description
 [**getCustomersUsingGET**](CustomerControllerApi.md#getCustomersUsingGET) | **GET** /customer | customers
 
 
+# CustomerModelClass
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**customerID** | **Integer** | 100 | 
+**customerName** | **String** | yara | 
+**location** | **String** | loc | 
 
 
 
