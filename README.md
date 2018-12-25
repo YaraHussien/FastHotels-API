@@ -14,5 +14,23 @@ We developed our service using the RESTful service development paradigm, which i
 
 #  Composite Service Algorithm According To BPMN 2.0
 
+# FastHotelControllerApi
+
+
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**addCustomerUsingPOST1**](FastHotelControllerApi.md#addCustomerUsingPOST1) | **POST** /composite/customer | addCustomer
+[**findCustomerByNameUsingGET1**](FastHotelControllerApi.md#findCustomerByNameUsingGET1) | **GET** /composite/customer | findCustomerByName
+[**getCustomerByIDUsingGET1**](FastHotelControllerApi.md#getCustomerByIDUsingGET1) | **GET** /composite/customer/{id} | getCustomerByID
+[**getCustomersUsingGET1**](FastHotelControllerApi.md#getCustomersUsingGET1) | **GET** /composite | customers
+[**getDirectioForHotelUsingGET**](FastHotelControllerApi.md#getDirectioForHotelUsingGET) | **GET** /composite/Customer-direction | Get Customer by Location
+
+
+<a name="addCustomerUsingPOST1"></a>
+# **addCustomerUsingPOST1**
+
+
+
+
 
  
