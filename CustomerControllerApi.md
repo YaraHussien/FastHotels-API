@@ -4,15 +4,15 @@ All URIs are relative to *https://localhost:8080*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**addCustomerUsingPOST**](CustomerControllerApi.md#addCustomerUsingPOST) | **POST** /customers/customer | addCustomer
-[**findCustomerByNameUsingGET**](CustomerControllerApi.md#findCustomerByNameUsingGET) | **GET** /customers/customer | findCustomerByName
-[**getCustomerByIDUsingGET**](CustomerControllerApi.md#getCustomerByIDUsingGET) | **GET** /customers/customer/{id} | getCustomerByID
-[**getCustomersUsingGET**](CustomerControllerApi.md#getCustomersUsingGET) | **GET** /customers | customers
+[**addCustomerUsingPOST**](CustomerControllerApi.md#addCustomerUsingPOST) | **POST** /customer/customer | addCustomer
+[**findCustomerByNameUsingGET**](CustomerControllerApi.md#findCustomerByNameUsingGET) | **GET** /customer/customer | findCustomerByName
+[**getCustomerByIDUsingGET**](CustomerControllerApi.md#getCustomerByIDUsingGET) | **GET** /customer/customer/{id} | getCustomerByID
+[**getCustomersUsingGET**](CustomerControllerApi.md#getCustomersUsingGET) | **GET** /customer | customers
 
 
 <a name="addCustomerUsingPOST"></a>
 # **addCustomerUsingPOST**
-> CustomerModelClass addCustomerUsingPOST(u)
+> CustomerModelClass addCustomerUsingPOST(c)
 
 addCustomer
 
@@ -24,9 +24,9 @@ addCustomer
 
 
 CustomerControllerApi apiInstance = new CustomerControllerApi();
-CustomerModelClass u = new CustomerModelClass(); // CustomerModelClass | u
+CustomerModelClass c = new CustomerModelClass(); // CustomerModelClass | c
 try {
-    CustomerModelClass result = apiInstance.addCustomerUsingPOST(u);
+    CustomerModelClass result = apiInstance.addCustomerUsingPOST(c);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling CustomerControllerApi#addCustomerUsingPOST");
@@ -38,7 +38,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **u** | [**CustomerModelClass**](CustomerModelClass.md)| u |
+ **c** | [**CustomerModelClass**](CustomerModelClass.md)| c |
 
 ### Return type
 
